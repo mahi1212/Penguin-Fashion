@@ -7,18 +7,19 @@
     <title>Penguin Fashion</title>
     <!------------------ Tailwindcss cdn --------------->
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <style>
+    <!-- <style>
         /* sizing image */
-        .grid img{
+        .grid img class="w-60 py-6 mx-auto h-64"{
             width: 280px;
             height: 350px;
             margin: 0 auto;
             padding: 1.2rem;
         }
-    </style>
+        
+    </style> -->
 </head>
 <body>
-    <header class="bg-yellow-100 px-8">
+    <header class="bg-gray-100 px-8">
         <section class="container md:flex items-center justify-around py-24">
             <div class="space-y-7">
                 <h1 class="text-7xl font-bold uppercase"><span class="text-yellow-300">Be the penguin</span>
@@ -32,7 +33,7 @@
                 </button>
             </div>
             <div>
-                <img src="images/model.png" class="mt-10" alt="">
+                <img class="w-60 py-6 mx-auto h-64" src="images/model.png" class="mt-10" alt="">
             </div>
         </section>
     </header>
@@ -46,8 +47,8 @@
         <!-- women jacket conatiner -->
             <div class="grid md:grid-cols-3 gap-7">
                 <div class="shadow-lg rounded-2xl p-4 space-y-6">
-                    <div class="bg-gray-300 rounded-2xl">
-                        <img src="images/jacket-1.png" alt="">
+                    <div class="bg-gray-100 rounded-2xl">
+                        <img class="w-60 py-6 mx-auto h-64" src="images/jacket-1.png" alt="">
                     </div>
                     <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, cupiditate!</p>
@@ -55,8 +56,8 @@
                     <button class="text-white uppercase px-7 py-2 mb-12 bg-green-500 float-right rounded-xl font-medium bg-gradient-to-r from-green-400 to-blue-500 ">Buy</button>
                 </div>
                 <div class="shadow-lg rounded-2xl p-4 space-y-6">
-                    <div class="bg-gray-300 rounded-2xl">
-                        <img src="images/jacket-2.png" alt="">
+                    <div class="bg-gray-100 rounded-2xl">
+                        <img class="w-60 py-6 mx-auto h-64" src="images/jacket-2.png" alt="">
                     </div>
                     <h4 class="text-3xl font-bold">Ladies Jacket </h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, cupiditate!</p>
@@ -64,8 +65,8 @@
                     <button class="text-white uppercase px-7 py-2 mb-12 bg-green-500 float-right rounded-xl font-medium bg-gradient-to-r from-green-400 to-blue-500 ">Buy</button>
                 </div>
                 <div class="shadow-lg rounded-2xl p-4 space-y-6">
-                    <div class="bg-gray-300 rounded-2xl">
-                        <img src="images/jacket-3.png" alt="">
+                    <div class="bg-gray-100 rounded-2xl">
+                        <img class="w-60 py-6 mx-auto h-64" src="images/jacket-3.png" alt="">
                     </div>
                     <h4 class="text-3xl font-bold">Woman Leather Jacket </h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, cupiditate!</p>
@@ -82,8 +83,8 @@
         <!-- women jacket conatiner -->
             <div class="grid md:grid-cols-3 gap-7">
                 <div class="shadow-lg rounded-2xl p-4 space-y-6">
-                    <div class="bg-gray-300 rounded-2xl">
-                        <img src="images/jacket-4.png" alt="">
+                    <div class="bg-gray-100 rounded-2xl">
+                        <img class="w-60 py-6 mx-auto h-64" src="images/jacket-4.png" alt="">
                     </div>
                     <h4 class="text-3xl font-bold">Snowboard Jacket Mens</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, cupiditate!</p>
@@ -91,8 +92,8 @@
                     <button class="text-white uppercase px-7 py-2 mb-12 bg-green-500 float-right rounded-xl font-medium bg-gradient-to-r from-green-400 to-blue-500 ">Buy</button>
                 </div>
                 <div class="shadow-lg rounded-2xl p-4 space-y-6">
-                    <div class="bg-gray-300 rounded-2xl">
-                        <img src="images/jacket-5.png" alt="">
+                    <div class="bg-gray-100 rounded-2xl">
+                        <img class="w-60 py-6 mx-auto h-64" src="images/jacket-5.png" alt="">
                     </div>
                     <h4 class="text-3xl font-bold">Man Leather Jackets</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, cupiditate!</p>
@@ -100,14 +101,52 @@
                     <button class="text-white uppercase px-7 py-2 mb-12 bg-green-500 float-right rounded-xl font-medium bg-gradient-to-r from-green-400 to-blue-500 ">Buy</button>
                 </div>
                 <div class="shadow-lg rounded-2xl p-4 space-y-6">
-                    <div class="bg-gray-300 rounded-2xl">
-                        <img src="images/jacket-6.png" alt="">
+                    <div class="bg-gray-100 rounded-2xl">
+                        <img class="w-60 py-6 mx-auto h-64" src="images/jacket-6.png" alt="">
                     </div>
                     <h4 class="text-3xl font-bold">Man Casual Jackets</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, cupiditate!</p>
                     <h2 class="text-3xl font-bold inline-block text-yellow-400">$234</h2>
                     <button class="text-white uppercase px-7 py-2 mb-12 bg-green-500 float-right rounded-xl font-medium bg-gradient-to-r from-green-400 to-blue-500 ">Buy</button>
                 </div>  
+            </div>
+        </section>
+        <section id="features">
+            <div class="lg:grid grid-cols-2 gap-5 px-32 py-16">
+                <div class="md:flex space-x-4 items-center shadow-lg bg-gray-100 py-4 px-6">
+                    <div>
+                        <img class="w-20 h-20" src="icons/image 12.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold text-gray-700">Find the Perfect Fit</h3>
+                        <p class="text-sm w-2/3">Everybody is different, which is why weoffer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="row-span-3 flex align-middle">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div>
+                    <div class="flex space-x-4 items-center shadow-lg bg-gray-100 py-4 px-6">
+                        <div>
+                            <img class="w-20 h-20" src="icons/image 13.png" alt="">
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-2xl font-bold text-gray-700">Free Exchanges</h3>
+                            <p class="text-sm w-2/3">One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex space-x-4 items-center shadow-lg bg-gray-100 py-4 px-6">
+                        <div>
+                            <img class="w-20 h-20" src="icons/image 14.png" alt="">
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-2xl font-bold text-gray-700">Contact Our Seller</h3>
+                            <p class="text-sm w-2/3">They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
